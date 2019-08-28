@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=kdenlive
+Comment=kdenlive Video Editor
+Exec=/home/itsonlycole/.appimages/kdenlive-19.08.0a-x86_64.appimage
+Terminal=false
+Type=Application
+Categories=Production;

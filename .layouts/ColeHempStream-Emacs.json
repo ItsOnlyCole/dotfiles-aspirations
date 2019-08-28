@@ -1,0 +1,138 @@
+{
+    "border": "pixel",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.7,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 1,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 529,
+               "width": 592,
+               "x": 0,
+               "y": 0
+            },
+            "name": "emacs@WaveLength",
+            "percent": 0.8,
+            "swallows": [
+               {
+               "class": "^Emacs$",
+               "instance": "^emacs$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "pixel",
+            "floating": "auto_off",
+            "layout": "splith",
+            "percent": 0.2,
+            "type": "con",
+            "nodes": [
+                {
+                    "border": "pixel",
+                    "current_border_width": 0,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 180,
+                       "width": 373,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "name": "feh [1 of 1] - Pictures/Graphic Design/KeyboardCam-Fill.png",
+                    "percent": 0.2,
+                    "swallows": [
+                       {
+                       "class": "^feh$",
+                       "instance": "^feh$"
+                       }
+                    ],
+                    "type": "con"
+                },
+                {
+                    "border": "pixel",
+                    "floating": "auto_off",
+                    "layout": "splitv",
+                    "percent": 0.8,
+                    "type": "con",
+                    "nodes": [
+                        {
+                            "border": "pixel",
+                            "current_border_width": 1,
+                            "floating": "auto_off",
+                            "geometry": {
+                               "height": 388,
+                               "width": 644,
+                               "x": 0,
+                               "y": 0
+                            },
+                            "name": "cava",
+                            "percent": 1,
+                            "swallows": [
+                               {
+                               "class": "^URxvt$",
+                               "instance": "^urxvt$"
+                               }
+                            ],
+                            "type": "con"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+
+{
+    "border": "pixel",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.3,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 0,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 285,
+               "width": 546,
+               "x": 0,
+               "y": 0
+            },
+            "name": "feh [1 of 1] - Pictures/Graphic Design/FaceCam-Fill.png",
+            "percent": 0.3,
+            "swallows": [
+               {
+               "class": "^feh$",
+               "instance": "^feh$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "pixel",
+            "current_border_width": 1,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 388,
+               "width": 644,
+               "x": 0,
+               "y": 0
+            },
+            "name": "itsonlycole@WaveLength:~/.config/i3",
+            "percent": 0.7,
+            "swallows": [
+               {
+               "class": "^URxvt$",
+  	       "instance": "^urxvt$"
+	       }
+            ],
+            "type": "con"
+        }
+    ]
+}
+

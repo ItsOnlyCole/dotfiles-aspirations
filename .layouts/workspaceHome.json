@@ -1,0 +1,89 @@
+{
+    "border": "pixel",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.7,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 1,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 808,
+               "width": 1312,
+               "x": 1946,
+               "y": 1136
+            },
+            "name": "QuteBrowser",
+            "percent": 0.8,
+            "swallows": [
+               {
+               "class": "^qutebrowser$",
+               "instance": "^qutebrowser$"           
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "pixel",
+            "floating": "auto_off",
+            "layout": "splith",
+            "percent": 0.2,
+            "type": "con",
+            "nodes": [
+                {
+                    "border": "pixel",
+                    "current_border_width": 1,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 388,
+                       "width": 644,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "name": "cava",
+                    "percent": 1,
+                    "swallows": [
+                       {
+                       "class": "^URxvt$",
+                       "instance": "^urxvt$"          
+                       }
+                    ],
+                    "type": "con"
+                }
+            ]
+        }
+    ]
+}
+
+{
+    "border": "pixel",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.3,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 1,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 388,
+               "width": 644,
+               "x": 0,
+               "y": 0
+            },
+            "name": "itsonlycole@WaveLength:~",
+            "percent": 1,
+            "swallows": [
+               {
+               "class": "^URxvt$",
+               "instance": "^urxvt$"     
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+

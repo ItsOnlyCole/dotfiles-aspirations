@@ -1,0 +1,129 @@
+{
+    "border": "pixel",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.7,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 1,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 808,
+               "width": 1312,
+               "x": 1946,
+               "y": 1136
+            },
+            "name": "i3: Layout saving in i3 - qutebrowser",
+            "percent": 0.8,
+            "swallows": [
+               {
+               "class": "^qutebrowser$",
+               "instance": "^qutebrowser$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "pixel",
+            "floating": "auto_off",
+            "layout": "splith",
+            "percent": 0.2,
+            "type": "con",
+            "nodes": [
+                {
+                    "border": "pixel",
+                    "current_border_width": 0,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 180,
+                       "width": 373,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "name": "feh [1 of 1] - Pictures/Graphic Design/KeyboardCam-Fill.png",
+                    "percent": 0.2,
+                    "swallows": [
+                       {
+                       "class": "^feh$",
+                       "instance": "^feh$"
+                       }
+                    ],
+                    "type": "con"
+                },
+                {
+                    "border": "pixel",
+                    "current_border_width": 1,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 388,
+                       "width": 644,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "name": "cava",
+                    "percent": 0.8,
+                    "swallows": [
+                       {
+                       "class": "^URxvt$",
+                       "instance": "^urxvt$"
+                       }
+                    ],
+                    "type": "con"
+                }
+            ]
+        }
+    ]
+}
+
+{
+    "border": "pixel",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.3,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 0,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 285,
+               "width": 546,
+               "x": 0,
+               "y": 0
+            },
+            "name": "feh [1 of 1] - Pictures/Graphic Design/FaceCam-Fill.png",
+            "percent": 0.3,
+            "swallows": [
+               {
+               "class": "^feh$",
+               "instance": "^feh$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "pixel",
+            "current_border_width": 1,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 388,
+               "width": 644,
+               "x": 0,
+               "y": 0
+            },
+            "name": "itsonlycole@WaveLength:~/.config/i3",
+            "percent": 0.7,
+            "swallows": [
+               {
+               "class": "^URxvt$",
+               "instance": "^urxvt$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+

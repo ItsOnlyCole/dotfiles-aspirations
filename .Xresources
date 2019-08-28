@@ -1,0 +1,13 @@
+!Cursor Settings
+Xcursor.size: 5
+
+! Urxvt Settings
+urxvt.scrollBar: false
+urxvt.scrollWithBuffer: true
+urxvt.font: xft:mononoki:size=12
+urxvt.transparent: true
+urxvt.shading: 30
+urxvt.perl-ext-common:clipboard
+urxvt.clipboard.autocopy: true
+urxvt.keysym.M-c: perl:clipboard:copy
+urxvt.keysym.M-v: perl:clipboard:paste
